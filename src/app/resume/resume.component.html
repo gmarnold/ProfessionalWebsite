@@ -1,0 +1,75 @@
+<div fxLayout="row" fxLayoutAlign="space-between">
+    <mat-card fxFlex="65%">
+        <mat-card-header>
+            <mat-card-title><h1>{{page.education}}</h1></mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            {{page.educationDegree}}
+            <br>{{page.educationGraduation}}
+            <br>{{page.educationRelevant}}
+            {{page.educationCourses}}
+        </mat-card-content>
+    </mat-card>
+    <br>
+    <mat-card fxFlex="34%">
+        <mat-card-title><h1>{{page.skills}}</h1></mat-card-title>
+        <mat-card-content>{{page.skillsContent}}</mat-card-content>
+    </mat-card>
+</div>
+<br>
+<div fxLayout="row" fxLayoutAlign="space-between">
+    <br>
+    <mat-card fxFlex="49%">
+        <mat-card-title><h1>{{page.experience}}</h1></mat-card-title>
+        <mat-card-content>
+            {{page.experienceSoftware}}
+            <br>{{page.experienceBlackRock}}
+            <li>{{page.experienceBlackRock1}}</li>
+            <li>{{page.experienceBlackRock2}}</li>
+            <li>{{page.experienceBlackRock3}}</li>
+            <br>{{page.experienceTableau}}
+            <br>{{page.experienceGE}}
+            <li>{{page.experienceGE1}}</li>
+            <li>{{page.experienceGE2}}</li>
+            <li>{{page.experienceGE3}}</li>
+            <br>{{page.experienceResearch}}
+            <br>{{page.experienceIIT}}
+            <li>{{page.experienceIIT1}}</li>
+            <li>{{page.experienceIIT2}}</li>
+        </mat-card-content>
+    </mat-card>
+    <br>
+    <mat-card fxFlex="49%">
+        <mat-card-title><h1>{{page.leadership}}</h1></mat-card-title>
+        <mat-card-content>
+            {{page.leadershipDSC}}
+            <li>{{page.leadershipDSC1}}</li>
+            {{page.leadershipACMW}}
+            <li>{{page.leadershipACMW1}}</li>
+            <li>{{page.leadershipACMW2}}</li>
+            {{page.leadershipTA}}
+            <li>{{page.leadershipTA1}}</li>
+            <li>{{page.leadershipTA2}}</li>
+            {{page.leadershipCyberHawks}}
+            <li>{{page.leadershipCyberHawks1}}</li>
+            {{page.leadershipSGA}}
+            <li>{{page.leadershipSGA1}}</li>
+        </mat-card-content>
+    </mat-card>
+</div>
+<br>
+<div fxLayout="row" fxLayoutAlign="space-between">
+    <mat-card fxFlex="34%">
+        <img [src]=hands>
+    </mat-card>
+    <mat-card fxFlex="65%">
+        <mat-card-title><h1>{{page.achievements}}</h1></mat-card-title>
+        <mat-card-content>
+            <li>{{page.achievement1}}</li>
+            <li>{{page.achievement2}}</li>
+            <li>{{page.achievement3}}</li>
+            <li>{{page.achievement4}}</li>
+            <li>{{page.achievement5}}</li>
+        </mat-card-content>
+    </mat-card>
+</div>
