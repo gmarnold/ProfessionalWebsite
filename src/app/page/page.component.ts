@@ -10,7 +10,7 @@ import { ContentService } from '../shared/services/content.service';
 export class PageComponent implements OnInit {
   page = {
     title: "Hi! I'm Grace!",
-    subtitle: 'Welcome to my professional website',
+    subtitle: 'Welcome to my professional website.',
     content: "I'm a fourth-year Computer Science student studying for both my Bachelor's and Master's of Science in Computer Science at Illinois Institute of Technology.",
     
   };
