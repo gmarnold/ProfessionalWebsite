@@ -50,7 +50,7 @@ export class ResumeComponent implements OnInit {
     achievement4: 'Earned English & Spanish Seal of Biliteracy in Reading, Writing, Listening, & Speaking ',
     achievement5: 'Awarded Guinness World Record for Pokémon competitive achievement',
   };
-  hands = "../assets/hands.jpg";
+  hands = "assets/hands.jpg";
   constructor() { }
 
   ngOnInit(): void {

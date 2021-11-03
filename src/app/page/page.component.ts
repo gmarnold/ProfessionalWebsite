@@ -14,8 +14,8 @@ export class PageComponent implements OnInit {
     content: "I'm a fourth-year Computer Science student studying for both my Bachelor's and Master's of Science in Computer Science at Illinois Institute of Technology.",
     
   };
-  headshot = "../assets/headshot.jpeg"
-  computers = "../assets/computers.jpg"
+  headshot = "assets/headshot.jpeg"
+  computers = "assets/computers.jpg"
 
   constructor(private route: ActivatedRoute,
     private contentService: ContentService) { 

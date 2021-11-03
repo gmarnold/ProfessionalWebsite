@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "Grace's site!";
-  bg = "../assets/bannerbg.png";
-  logo = "../assets/logo.png";
+  bg = "assets/bannerbg.png";
+  logo = "assets/logo.png";
 }
