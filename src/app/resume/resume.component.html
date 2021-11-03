@@ -4,7 +4,7 @@
             <mat-card-title><h1>{{page.education}}</h1></mat-card-title>
         </mat-card-header>
         <mat-card-content>
-            {{page.educationDegree}}
+            <div class=h2 color=primary>{{page.educationDegree}}</div>
             <br>{{page.educationGraduation}}
             <br>{{page.educationRelevant}}
             {{page.educationCourses}}
@@ -18,21 +18,20 @@
 </div>
 <br>
 <div fxLayout="row" fxLayoutAlign="space-between">
-    <br>
-    <mat-card fxFlex="49%">
+    <mat-card fxFlex="50%">
         <mat-card-title><h1>{{page.experience}}</h1></mat-card-title>
         <mat-card-content>
-            {{page.experienceSoftware}}
+            <div class = h2>{{page.experienceSoftware}}</div>
             <br>{{page.experienceBlackRock}}
             <li>{{page.experienceBlackRock1}}</li>
             <li>{{page.experienceBlackRock2}}</li>
             <li>{{page.experienceBlackRock3}}</li>
-            <br>{{page.experienceTableau}}
+            <br><div class = h2>{{page.experienceTableau}}</div>
             <br>{{page.experienceGE}}
             <li>{{page.experienceGE1}}</li>
             <li>{{page.experienceGE2}}</li>
             <li>{{page.experienceGE3}}</li>
-            <br>{{page.experienceResearch}}
+            <br><div class = h2>{{page.experienceResearch}}</div>
             <br>{{page.experienceIIT}}
             <li>{{page.experienceIIT1}}</li>
             <li>{{page.experienceIIT2}}</li>
@@ -42,15 +41,15 @@
     <mat-card fxFlex="49%">
         <mat-card-title><h1>{{page.leadership}}</h1></mat-card-title>
         <mat-card-content>
-            {{page.leadershipDSC}}
+            <div class = h2>{{page.leadershipDSC}}</div>
             <li>{{page.leadershipDSC1}}</li>
-            {{page.leadershipACMW}}
+            <div class = h2>{{page.leadershipACMW}}</div>
             <li>{{page.leadershipACMW1}}</li>
             <li>{{page.leadershipACMW2}}</li>
-            {{page.leadershipTA}}
+            <div class = h2>{{page.leadershipTA}}</div>
             <li>{{page.leadershipTA1}}</li>
             <li>{{page.leadershipTA2}}</li>
-            {{page.leadershipCyberHawks}}
+            <div class = h2>{{page.leadershipCyberHawks}}</div>
             <li>{{page.leadershipCyberHawks1}}</li>
             {{page.leadershipSGA}}
             <li>{{page.leadershipSGA1}}</li>

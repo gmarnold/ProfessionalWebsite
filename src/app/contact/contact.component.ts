@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
   page = {
-    title: 'Contact',
-    subtitle: 'Welcome Home!',
-    content: 'Some home content.',
+    title: 'Contact me!',
+    email: 'Send me an email!',
+    github: 'Follow me on GitHub!',
+    linkedin: 'Connect with me on LinkedIn!'
   };
+  goog = "assets/goog.jpg"
+  rosie = "assets/rosie2.jpg"
+  daisy = "assets/daisy.jpg"
   constructor() { }
 
   ngOnInit(): void {

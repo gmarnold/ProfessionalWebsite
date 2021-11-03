@@ -1,11 +1,26 @@
 <div>
     <mat-card>
-    <mat-card-header>
-    <mat-card-title><h1>{{page.title}}</h1></mat-card-title>
-    <mat-card-subtitle>{{page.subtitle}}</mat-card-subtitle>
-    </mat-card-header>
+        <mat-card-header>
+            <mat-card-title><h1>{{page.title}}</h1></mat-card-title>
+        </mat-card-header>
     <mat-card-content>
-    {{page.content}}
+        <li><a href="mailto:garnold@hawk.iit.edu">{{page.email}}</a></li>
+        <li><a href="https://github.com/gmarnold">{{page.github}}</a></li>
+        <li><a href="https://linkedin.com/in/grace-m-arnold/">{{page.linkedin}}</a></li>
     </mat-card-content>
     </mat-card>
+    <br>
+    <div fxLayout="row" fxLayoutAlign="space-between">
+        <mat-card fxFlex="37%">
+            <img [src]=goog>
+        </mat-card>
+        <br>
+        <mat-card fxFlex="23%">
+            <img [src]=daisy>
+        </mat-card>
+        <br>
+        <mat-card fxFlex="37%">
+            <img [src]=rosie>
+        </mat-card>
+    </div>
 </div>
